@@ -223,7 +223,7 @@ var commands = {
 
     remoteDownloadUpdate.call(this, this.updateName, {
         host: this.attrs.contenthost,
-        path: '/' + path.join(jsoninfo.repo,
+        path: path.join(jsoninfo.repo,
           'zip',
           jsoninfo.branch)
       })
